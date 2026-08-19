@@ -243,7 +243,7 @@ body.securbank-theme header nav .nav-tools .sign-in-btn::after {
   body.securbank-theme header nav {
     justify-content: space-between;
     padding: 0 16px;
-    gap: 16px;
+    gap: 0 16px;
   }
 
   body.securbank-theme header .nav-brand {
@@ -311,10 +311,14 @@ body.securbank-theme header nav .nav-tools .sign-in-btn::after {
     width: 100%;
   }
 
+  body.securbank-theme main .set-up-auto-save,
+  body.securbank-theme main .transfer-funds,
   body.securbank-theme .section.section-horizontal-widths.sign-in-container .sign-in {
     margin: 30px 0;
   }
 
+  body.securbank-theme main .set-up-auto-save .submit-wrapper button,
+  body.securbank-theme main .transfer-funds .submit-wrapper button,
   body.securbank-theme main .create-account .submit-wrapper button {
     text-align: center;
   }
@@ -409,6 +413,7 @@ body.securbank-theme header nav .nav-tools .sign-in-btn::after {
   }
 
   body.securbank-theme .file-attachButton, 
+  body.securbank-theme main .child-account-application .submit-wrapper button, 
   body.securbank-theme main .name-change-request .submit-wrapper button, 
   body.securbank-theme .add-external-block .add-external-form .add-external-submit-btn button, 
   body.securbank-theme .add-external-block .add-external-form .submit-wrapper button, 
@@ -428,5 +433,23 @@ body.securbank-theme header nav .nav-tools .sign-in-btn::after {
   body.securbank-theme .section.columns-container.action-button-container .columns-wrapper .columns .columns-row {
     margin: 0;
     gap: 16px;
+  }
+
+  body.securbank-theme .header-wrapper, body.securbank-theme header nav, body.securbank-theme header .nav-wrapper {
+    height: auto;
+  }
+
+  body.securbank-theme .TopRibbon .TopRibbon__content {
+    padding: 8px !important;
+    font-size: 12px;
+  }
+
+  body.securbank-theme .loan-calculator-field input[type="range"] {
+    appearance: auto;
+    accent-color: #2c2c2c;
+  }
+
+  body.securbank-theme .loan-calculator-apply-button:hover {
+    background-color: transparent;
   }
 }
