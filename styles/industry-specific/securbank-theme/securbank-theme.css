@@ -156,6 +156,20 @@ body.securbank-theme header .nav-hamburger-icon::after {
   display: none;
 }
 
+body.securbank-theme .columns-row .button-container a,
+body.securbank-theme .button-container.cta-link a,
+body.securbank-theme .button-container.default-button-link a {
+  text-decoration: underline;
+  color: #0296a6;
+  border-radius: 0;
+}
+
+body.securbank-theme .columns-row .button-container a::after,
+body.securbank-theme .button-container.cta-link a::after,
+body.securbank-theme .button-container.default-button-link a::after {
+  content: unset;
+}
+
 /* sign-in link becomes an icon-only account/avatar glyph on mobile */
 body.securbank-theme header nav .nav-tools .sign-in-btn::after {
   content: none !important;
