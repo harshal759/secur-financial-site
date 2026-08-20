@@ -175,6 +175,10 @@ body.securbank-theme header nav .nav-tools .sign-in-btn::after {
   content: none !important;
 }
 
+body.securbank-theme header .search .search-box .icon {
+  mask: unset !important;
+}
+
 @media screen and (max-width: 768px) {
   body.securbank-theme header .header nav .nav-tools .sign-in-btn, body.securbank-theme header nav .nav-tools a[href*="sign"] {
     font-size: 0 !important;
